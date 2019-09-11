@@ -1,0 +1,10 @@
+no-permission-msg: &cNo permission.
+settings:
+  kick:
+    kick-enabled: true
+    kick-message: &cYou cannot connect using a VPN!
+    notify-staff: true
+    kick-staff-message: "&c%PLAYER% tried to join but is using a VPN. API: %API%"
+    kick-bypass-self-message: "&aYou bypassed sVPN. API: %API%"
+    kick-bypass-staff-message: "&c%STAFF% bypassed sVPN. API: %API%"
+  display-ips: true

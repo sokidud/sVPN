@@ -1,0 +1,16 @@
+name: sVPN
+author: sokiii
+version: 1.0
+main: me.soki.svpn.sVPN
+commands:
+  svpn:
+    aliases: [vpn]
+    description: This command manages sVPN
+
+permissions:
+  svpn.admin:
+    default: op
+    description: Manage sVPN
+  svpn.bypass:
+    default: op
+    description: Bypass sVPN protection
